@@ -1,0 +1,69 @@
+
+body {
+    background-color: rgb(159, 255, 99);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0px 15px 0px;
+    background-color: white;
+}
+#tool-bar1 {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#tool-bar2 {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.icon {
+    color: grey;
+}
+
+.icon:visited {
+    color: grey;
+}
+
+#icon {
+    font-size: 4vh;
+    height: 4vh;
+}
+
+.link {
+    color: black;
+}
+
+.link:visited {
+    color: black;
+}
+
+.white-space {
+    height: 15vh;
+}
+
+#information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    padding: 20px 0px 100px 0;
+}
+#name {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    font-size: 7vh;
+}
