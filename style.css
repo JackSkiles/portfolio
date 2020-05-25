@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(155, 158, 153);
+    background-color: rgba(100, 204, 100, 0.349);
 }
 
 .header {
@@ -79,10 +79,30 @@ body {
     background-color: whitesmoke;
 }
 
-#big-container {
+.big-container {
     display: flex;
     justify-content: center;
+    margin: 20px 0px 0px 0px;
 }
+
+#programs1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+#programs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    height: 100%;
+    padding: 0px 20px 20px 20px;
+    background-color: whitesmoke;
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -109,15 +129,25 @@ body {
     justify-content: flex-end;
 }
 
+.program-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
 .name {
     display: flex;
     font-size: 9vh;
 }
 
 #pic {
-    height: 40vh;
-    width: 30vw;
+    height: 30vh;
 }
+
+#text {
+    font-size: 4vh;
+    margin: 0px;
+}
+
 @media screen and (min-width: 300px){
     .name {
         font-size: 10vh;
