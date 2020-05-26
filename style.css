@@ -87,9 +87,10 @@ body {
 
 #programs1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 95%;
+    width: 100%;
 }
 
 #programs {
@@ -99,6 +100,7 @@ body {
     align-items: center;
     border-radius: 10px;
     height: 100%;
+    width: 40%;
     padding: 0px 20px 20px 20px;
     background-color: whitesmoke;
 }
@@ -133,6 +135,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    width: 100%;
 }
 .name {
     display: flex;
@@ -141,6 +144,7 @@ body {
 
 #pic {
     height: 30vh;
+    width: 100%;
 }
 
 #text {
