@@ -9,6 +9,15 @@ body {
     padding: 15px 0px 15px 0px;
     background-color: white;
 }
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0px 15px 0px;
+    margin: 20px 0 0 0; 
+    background-color: white;
+}
+
 #tool-bar1 {
     display: flex;
     justify-content: space-around;
@@ -44,6 +53,10 @@ body {
 }
 
 .white-space {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
     height: 5vh;
 }
 
@@ -83,6 +96,11 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px 0px 0px 0px;
+}
+.big-container2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 20px 20px 20px;
 }
 
 #programs1 {
@@ -150,6 +168,10 @@ body {
 #text {
     font-size: 4vh;
     margin: 0px;
+}
+
+#language {
+    font-size: 7vh;
 }
 
 @media screen and (min-width: 300px){
