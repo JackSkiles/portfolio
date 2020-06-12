@@ -46,6 +46,7 @@ body {
 
 .link {
     color: black;
+    font-size: 2vh;
 }
 
 .link:visited {
@@ -131,6 +132,38 @@ body {
     padding: 20px 20px 50px 20px;
 }
 
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .form-container {
+    display: flex;
+    width: 60%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
 .column {
     display: flex;
     flex-direction: column;
@@ -167,7 +200,7 @@ body {
 }
 
 #text {
-    font-size: 4vh;
+    font-size: 3vh;
     margin: 0px;
     font-family: Arial;
 }
