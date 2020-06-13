@@ -100,6 +100,7 @@ body {
 }
 .big-container2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 70px 20px 20px 20px;
 }
@@ -233,8 +234,8 @@ input[type=text], select, textarea {
     padding-top: 50px;
 }
 
-@media screen and (max-width: 700px){
-    #text-container {
+@media screen and (max-width: 900px){
+    #text-container1 {
         display: none;
     }
 }
@@ -252,6 +253,36 @@ input[type=text], select, textarea {
     }
 }
 
+@media screen and (max-width: 900px){
+    #text {
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width: 900px){
+    .link {
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+    #programs {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 900px){
+    #information {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 900px){
+    #container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 900px){
+    #language {
+        width: 20%;
+    }
+}
 /* @media screen and (min-width: 100px){
     #info {
         display: none;
