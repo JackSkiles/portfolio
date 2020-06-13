@@ -283,6 +283,12 @@ input[type=text], select, textarea {
         width: 20%;
     }
 }
+@media screen and (max-width: 900px){
+    .footer {
+        display: none;
+    }
+}
+
 /* @media screen and (min-width: 100px){
     #info {
         display: none;
