@@ -210,10 +210,15 @@ input[type=text], select, textarea {
     font-size: 7vh;
 }
 
+
 @media screen and (min-width: 300px){
     .name {
         font-size: 10vh;
     }
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 @media screen and (max-width: 700px){
@@ -240,12 +245,12 @@ input[type=text], select, textarea {
     }
 }
 
-@media screen and (max-width: 900px){
+/* @media screen and (max-width: 900px){
     #info {
         display: none;
     }
 
-}
+} */
 
 @media screen and (max-width: 900px){
     #pic-container {
@@ -288,6 +293,13 @@ input[type=text], select, textarea {
         display: none;
     }
 }
+@media screen and (max-width: 900px){
+    .column {
+        justify-content: flex-end;
+    }
+}
+
+
 
 /* @media screen and (min-width: 100px){
     #info {
