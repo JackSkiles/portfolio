@@ -99,7 +99,7 @@
 }
 .icon-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 70%;
     margin: 20px 0px 0px 0px;
@@ -200,7 +200,6 @@ h2 {
 .text-container2 {
     width: 70%;
 }
-
 @media screen and (min-width: 300px){
     .name {
         font-size: 10vh;
@@ -298,6 +297,9 @@ h2 {
     }
     .column {
         justify-content: flex-end;
+    }
+    #iconText{
+        display: none;
     }
 }
 
