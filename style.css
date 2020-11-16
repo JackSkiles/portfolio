@@ -108,8 +108,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 35%;
-    height: 30%;
+    width: 20%;
+    height: 30vh;
     margin: 70px 20px 20px 20px;
     padding: 10px;
     background-color: #111111;
@@ -160,6 +160,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    height: 70%;
     width: 100%;
 }
 .name {
@@ -170,7 +171,7 @@ h2 {
 }
 
 #pic {
-    height: 30vh;
+    height: 100%;
     width: 100%;
 }
 
